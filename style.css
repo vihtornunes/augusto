@@ -276,7 +276,7 @@ nav {
         justify-content: center;
         align-items: center;
         margin-top: 88px;
-        height: 500px;
+        height: 400px;
     }
 
     .img-content {
@@ -428,12 +428,16 @@ to {
 
 
 @media screen and (max-width: 768px) {
+    .footer-container {
+        margin-bottom: 14px;
+    }
+    
     .footer-icons i {
         font-size: 26px; 
     }
 
     .copy p {
-        font-size: 18px;
+        font-size: 14px;
     }
    
 }

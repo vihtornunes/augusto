@@ -296,7 +296,7 @@ nav {
     .text-description p {
         font-size: 16px;
         max-width: 100%;
-        text-align: center;
+        text-align: start;
         justify-content: center;
         align-items: center;
         margin-top: 18px;
@@ -330,7 +330,7 @@ nav {
     margin: 20px;
     width: 1000px;
     margin: auto;
-    margin-bottom: 14px;
+    margin-bottom: 24px;
     padding: 20px;
     text-align: center;
     align-items: center;
@@ -540,7 +540,7 @@ to {
     .btn-whatsapp {
         max-width: 44px;
         bottom: 24px;
-        right: 96px;
+        right: 38px;
     }
 
     .btn-whatsapp img {

@@ -114,6 +114,7 @@ nav {
 
     .header-content {
         max-width: 100%;
+        margin: 0 auto;
     }
 
     .nav-content {
@@ -127,7 +128,7 @@ nav {
         margin-top: 60px;
         font-size: 26px;
         gap: 28px;
-        margin-right: 24px;
+        margin-right: 48px;
         align-items: center;
         justify-content: center;
     }
@@ -139,7 +140,7 @@ nav {
     .header-logo img {
         justify-content: center;
         align-items: center;
-        margin-right: 50px;
+        margin-right: 78px;
     }
 
     .header-button {

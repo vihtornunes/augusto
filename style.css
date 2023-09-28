@@ -330,7 +330,6 @@ nav {
     flex-direction: column;
     margin: 20px;
     width: 1000px;
-    height: 160px;
     margin: auto;
     margin-bottom: 14px;
     padding: 20px;
@@ -338,11 +337,6 @@ nav {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.253);
     border-radius: 5px;
-    transition: all 05 ease;
-}
-
-.services-content .card:hover {
-    opacity: 0.9;
 }
 
 .services-content h2 {
@@ -363,8 +357,6 @@ nav {
     text-align: center;
     padding-top: 14px;
     max-width: 80%;
-    height: auto;
-    height: 200px;
     letter-spacing: 0.8px;
 }
 
@@ -394,7 +386,7 @@ nav {
     }
     to {
         opacity: 1;
-        max-height: 300px;
+        max-height: 600px;
     }
 }
 

@@ -153,7 +153,7 @@ nav {
 /* hero contain */ 
 
 .hero-container{
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,7 +201,6 @@ nav {
 @media screen and (max-width: 768px) {
 
     .hero-container h1 {
-        max-width: 90%;
         font-size: 20px;
         justify-content: center;
         align-items: center;
@@ -209,7 +208,6 @@ nav {
 
     .hero-container h1 {
         font-size: 24px;
-        max-width: 100%;
     }
 
     .hero-container p {
@@ -334,6 +332,7 @@ nav {
     margin: auto;
     margin-bottom: 14px;
     padding: 20px;
+    text-align: center;
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.253);
@@ -341,6 +340,7 @@ nav {
 }
 
 .services-content h2 {
+    display: flex;
     color: #fff;
     font-size: 26px;
     text-align: center;
@@ -358,7 +358,7 @@ nav {
     font-weight: 300;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: start;
     padding-top: 14px;
     max-width: 80%;
     letter-spacing: 0.8px;
@@ -369,12 +369,14 @@ nav {
 }
 
 .js-accordion h2::after {
-    content: '⬎';
+    color: var(--cor-background);
+    font-weight: bold;
+    content: '+';
     margin-left: 15px;
 }
 
 .js-accordion h2.ativo::after {
-    content: '⬏';
+    content: '-';
     margin-left: 15px;
 }
 
@@ -516,14 +518,14 @@ to {
     visibility:  hidden;
     position: absolute;
     width: 120px;
-    top: 8px;
+    top: 2px;
     left: -140px;
     padding: 6px;
     border-radius: 8px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: #fff;
     opacity: 0;
     transition: opacity 0.4s;
@@ -535,13 +537,19 @@ to {
 }
 
 @media screen and (max-width: 768px) {
+    .btn-whatsapp {
+        max-width: 44px;
+        bottom: 24px;
+        right: 96px;
+    }
+
     .btn-whatsapp img {
-        max-width: 54px;
+        width: 46px;
     }
 
     .btn-whatsapp .tolltip-text {
-        width: 120px;
-        top: 2px;
-        left: -140px;
+        width: 100px;
+        top: -6px;
+        left: -120px;
     }
 }

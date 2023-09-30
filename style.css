@@ -162,6 +162,10 @@ nav {
     padding: 14px;
 }
 
+.bg-hero {
+    max-height: 100%;
+}
+
 .hero-container h1 {
     font-size: 46px;
     text-align: center;
@@ -200,8 +204,13 @@ nav {
 
 @media screen and (max-width: 768px) {
 
+    .bg-hero {
+        max-height: 100%;
+    }
+
     .hero-container h1 {
         font-size: 20px;
+        max-width: 80%;
         justify-content: center;
         align-items: center;
     }
